@@ -26,6 +26,6 @@ jobs:
             Microsoft.Storage.DirectoryCreated	
             Microsoft.Storage.DirectoryRenamed	
             Microsoft.Storage.DirectoryDeleted	
-        provider_type: "Microsoft.Storage/storageAccounts/mydlsdemo"
-        resource_group: "poc-data-lake-storage-demo-resource-group"
+        provider_type: "Microsoft.Storage/storageAccounts/mydls"
+        resource_group: "azure-sample"
         pattoken: ${{secrets.PATTOKEN}}
